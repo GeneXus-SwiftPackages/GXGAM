@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXGAM",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-1.0.0-beta+20230309100338.xcframework.zip",
-			checksum: "88c784d0b0928f6506f1a01ec134cda0205dbc0230e1b917ce289890e2e34a7d"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-1.0.0-beta+20230309134517.xcframework.zip",
+			checksum: "81e8dea15cb3a521c45265b7f638b5aab4d44b49be58c49049ebec9de99a86ba"
 		)
 	]
 )
