@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXGAMWrapper",
 				dependencies: [
 					"GXGAM",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .watchOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXGAM",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-1.0.0-beta+20230515153434.xcframework.zip",
-			checksum: "0dac8ed397ec48ecaa80c90c9746483e4640e08ce86d492bb43ea9f315ad2205"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-1.0.0-beta+20230515174624.xcframework.zip",
+			checksum: "f356cb879264dea19a8699cb7ef05a5cdbefbc7e43be49ea9231be996fa09d34"
 		)
 	]
 )
