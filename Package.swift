@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXGAM",
-	platforms: [.iOS("13.0"), .watchOS("9.0"), .tvOS("13.0"), .visionOS("1.0")],
+	platforms: [.iOS("15.0"), .watchOS("10.0"), .tvOS("18.0"), .visionOS("2.0")],
 	products: [
 		.library(
 			name: "GXGAM",
 			targets: ["GXGAMWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.0.0-beta.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.0.0-beta.9")
 	],
 	targets: [
 		.target(name: "GXGAMWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXGAM",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-3.0.0-beta.8.xcframework.zip",
-			checksum: "f4afbdef91143ffec33b2ea58055f370bb4c4fff769a136e7b2f4e0be5f7d68d"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-3.0.0-beta.9.xcframework.zip",
+			checksum: "4678f53e4f163a7c4a3a664eabd32bc0c6e6cd7f9ebe6ae8600601cc8dd6c170"
 		)
 	]
 )
