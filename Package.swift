@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXGAMWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "4.2.0-beta.30")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "4.2.0-beta.31")
 	],
 	targets: [
 		.target(name: "GXGAMWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXGAM",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-4.2.0-beta.30.xcframework.zip",
-			checksum: "ba35076d0cb82eec84ed8b47c32b9fe5ccb2fc932c4bffaf5faf92623f239e55"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXGAM-4.2.0-beta.31.xcframework.zip",
+			checksum: "15eb4f23c4652f6e5290aa7c3f3180b1088a4ce3d15d551c7055e5ce024886cf"
 		)
 	]
 )
